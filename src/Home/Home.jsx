@@ -1,7 +1,6 @@
 import React from 'react'
 import {Box, Grid, Typography} from '@mui/material'
 import BG from './homebg.png'
-import IMG from './THETRANARENA.png'
 import GROUP2 from './Group 2.png'
 import STICK from './Rectangle.png'
 import FIRST from './first.png'
@@ -26,10 +25,20 @@ function Home() {
             <Grid container>
 
                 <Grid item xs={12} md={6}>
-                    <img src={IMG} alt="" style={{
-                        marginBottom:"1.5rem",
-                    }}/>
 
+           <p  style={{
+                    fontSize:"4em",
+                    fontFamily:"Metal Mania",
+                    fontWeight:400,
+                    background:"#FFFFFF",
+                    // color:"#FFFFFF",
+                    WebkitBackgroundClip:"text",
+                    
+                    WebkitTextFillColor:"transparent",
+                    textAlign:"center",
+               
+                    textTransform:"uppercase",
+                }}>THETRAN <br />ARENA</p>
                     <Typography sx={{
                         fontSize:"20px",
                         fontFamily:"'Roboto', sans-serif",
@@ -69,11 +78,7 @@ function Home() {
                         justifyContent:"center",
                         marginTop:"-5rem",
                         marginLeft:"-3rem",
-                    display:{xs:"none", sm:"none",  md:"block"},
-                    
-
-
-                        
+                    display:{xs:"none", sm:"none",  md:"block"},   
                         
                     }}>
                         <img src={SECOND} alt="" style={{
@@ -105,8 +110,6 @@ function Home() {
                             top:"16rem",
                             transform:"translateX(-25%)",
                             maxWidth:"400px"
-
-
                         }} />
                     </Box>
                 </Grid>

@@ -97,7 +97,7 @@ export default function RoadMap() {
             padding: "2rem 25rem"
           }} />
         </Grid>
-        <Box sx={{display:"flex",flexWrap: "wrap"}} >
+        <Box sx={{display:"flex",flexWrap: "wrap", padding:"0 5rem"}} >
           <Box><img src={One} alt=""  /></Box>
           <Box><img src={Second} alt="" className='flexStyle' /></Box>
           <Box><img src={Third} alt="" className='flexStyle' /></Box>

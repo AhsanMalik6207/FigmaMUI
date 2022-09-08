@@ -13,8 +13,8 @@ function App() {
             <Players />
             <Section3 />
             <Netsitem />
-            <TheTan />
-            <RoadMap />
+            {/* <TheTan /> */}
+            {/* <RoadMap /> */}
             <Footer />
     </>
   );
